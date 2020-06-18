@@ -1,0 +1,23 @@
+{
+    "name": "jon/chroma-x86-64",
+    "description": "A compiled version of the Chroma syntax highlighter CLI for x86-64 systems",
+    "keywords": ["chroma", "code", "syntax", "highlight"],
+    "homepage": "https://github.com/alecthomas/chroma",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Vercoutere",
+            "email": "jonathan.vercoutere@gmail.com"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "bin/chroma-x86-64"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jon\\Chroma\\": ""
+        }
+    }
+}
